@@ -63,5 +63,5 @@ int main(){
     s.mergesort(0,9999,c);
     
     s.output();
-    cout<<c;
+    cout<<"No of comparisions"<<c;
 }
