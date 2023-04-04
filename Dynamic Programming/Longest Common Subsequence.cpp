@@ -43,7 +43,7 @@ class Lcs{
 		}
 				if(b[i][j]==0){
 					print_lcs(b,i-1,j-1);
-					cout<<x[i];
+					cout<<x[i-1];
 				}
 				else if(b[i][j]==1){
 					print_lcs(b,i-1,j);
